@@ -40,7 +40,7 @@ const MainPage = () => {
         consciousness or awareness immediately. Typically, an aura happens
         before the main part of a seizure. The aura can occur as an isolated
         incident, without any other symptoms. Those are defined as a simple
-        partial seizure.{' '}
+        partial seizure.
       </p>
 
       <p>
@@ -50,14 +50,14 @@ const MainPage = () => {
         through the brain inappropriately. Often this will result in signals
         being sent to your muscles, nerves, or glands. The spread of these
         signals in your brain can make you lose consciousness and have severe
-        muscle contractions.{' '}
+        muscle contractions.
       </p>
 
       <h2>Common symptoms of "Aurul Phase"</h2>
 
       <h5>Changes in your Thoughs and Feelings:</h5>
 
-      <ol>
+      <ul>
         <li>Strange, negative, or scary feelings, like fear or panic</li>
         <li>Pleasant feelings</li>
         <li>Racing thoughts</li>
@@ -81,7 +81,7 @@ const MainPage = () => {
         <li>Nausea (feeling like you might throw up) </li>
         <li>
           Other feelings in your stomach (like a rising feeling from your
-          stomach to your throat){' '}
+          stomach to your throat)
         </li>
         <h6>Changes in your Senses</h6>
 
@@ -98,7 +98,9 @@ const MainPage = () => {
           Unusual tastes or smells (for example, a bad smell like burning
           rubber)
         </li>
-      </ol>
+      </ul>
     </div>
   )
 }
+
+export default MainPage
