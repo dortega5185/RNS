@@ -1,38 +1,212 @@
 .App {
-  text-align: center;
+  // text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main {
+  h1 {
+    text-align: center;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h4 {
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
+
+  // width: 800px;
+  margin: 0 auto;
+
+  // text-align: center;
+  .triple {
+    background-color: rgb(190, 208, 219);
+    border: 2px white solid;
+    border-radius: 10px;
+
+    h4 {
+      text-align: center;
+    }
+  }
+
+  .twins {
+    background-color: rgb(190, 208, 219);
+    border: 2px white solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  h1 {
+    margin: 50px;
+  }
+
+  .mainPic {
+    height: 450px;
+    margin-bottom: 50px;
+    margin-left: 320px;
+  }
+
+  .top-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+
+    .right-side {
+      width: 50%;
+    }
+
+    // .lifetime {
+
+    // }
+
+  }
+
+  .aurulh2 {
+    border-top: 1px solid rgb(37, 37, 37);
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .stages {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 380px;
+  }
+
+
+  .aurul {
+    display: flex;
+    justify-content: space-evenly;
+
+    .triple {
+      width: 30%;
+      margin-bottom: 20px;
+      // ul {
+      //   // li {
+      //   //   list-style: none;
+      //   // }
+      // }
+    }
+  }
+
+  .ictalP {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .ictalH {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .forIctal {
+    .combined {
+      display: flex;
+      justify-content: space-evenly;
+
+      .triple {
+        margin-bottom: 40px;
+        width: 30%;
+      }
+    }
+
+    .double {
+      width: 91%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+    }
+
+    h5 {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  .anotherP {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .post {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .eeg {
+    margin-left: 335px;
+  }
+
+  .postictal {
+    display: flex;
+    justify-content: space-evenly;
+
+    .twins {
+      // margin-left: 80px;
+      // margin-right: 80px;
+      width: 30%;
+      // ul {
+      // text-align: center;
+
+      // li {
+      //   list-style: none;
+      //   width: 90%;
+      // }
+
+      // }
+    }
+  }
+
+
+
+  footer {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top: 1px solid rgb(37, 37, 37);
+
+    .solution {
+      margin-top: 50px;
+    }
+
+    .solPhotos {
+      display: flex;
+      justify-content: space-around;
+
+      img {
+        margin-top: 20px;
+        width: 600px;
+      }
+
+      .rnsdata {
+        padding-bottom: 15px;
+        padding-right: 40px;
+      }
+    }
+
+    .rnsP {
+      margin: -20px;
+    }
+
+
+    .video {
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 65px;
+    }
+
+    .thoughts {
+      border-top: 1px solid rgb(37, 37, 37);
+      padding-top: 50px;
+    }
+
+    .last {
+      margin-bottom: 40px;
+    }
   }
 }
